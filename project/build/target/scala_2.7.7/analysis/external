@@ -1,0 +1,5 @@
+#External Dependencies
+#Tue May 08 17:50:30 CDT 2012
+/home/hector/lift/github/live_validation/project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.7/sbt_2.7.7-0.7.7.jar=LiftProject.scala
+/home/hector/lift/github/live_validation/project/boot/scala-2.7.7/lib/scala-library.jar=LiftProject.scala
+/opt/java/jdk1.7.0_02/jre/lib/rt.jar=LiftProject.scala

@@ -1,0 +1,19 @@
+<div lift="surround?with=default;at=content">
+
+    <div>
+        Using stateful snippets for a better
+        user experience
+    </div>
+
+    <div>
+
+        <span class="lift:Msg?id=username&errorClass=error">error</span>
+        <div class="lift:UserSignup?form=post"><!--?ajax=true-->  
+            username: <input id="username" name="username" value=""><span class="lift:msg?id=error_username&errorClass=error"></span><br>
+            email:    <input id="email" name="email" value=""><span class="lift:msg?id=error_email&errorClass=error"></span><br>
+            password: <input id="password" name="password"  value=""><span class="lift:msg?id=error_password&errorClass=error"></span><br>
+            <input type="submit" value="Submit">
+        </div>
+    </div>
+
+</div>   

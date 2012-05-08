@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <title>Home</title>
+  </head>
+  <body class="lift:content_id=main">
+    <div id="main" class="lift:surround?with=default;at=content">
+      <h2>Welcome to your project!</h2>
+      <p>
+	<span class="lift:helloWorld.howdy">
+	  Welcome to your Lift app at <span id="time">Time goes here</span>
+	</span>
+      </p>
+      
+      <p>email registered: email@email.com</p>
+      
+      <div>
+	  <div class="lift:App?form=post"><!--?ajax=true-->  
+	      email:    <input id="email" name="email" value=""><span class="lift:msg?id=email&errorClass=error"></span><br>
+	      firstname: <input id="firstname" name="firstname"  value=""><span class="lift:msg?id=firstnamed&errorClass=error"></span><br>
+	      <input type="submit" value="Submit"><!--S.error-->
+	  </div>
+      </div>      
+      
+      
+      
+    </div>
+  </body>
+</html>
+
